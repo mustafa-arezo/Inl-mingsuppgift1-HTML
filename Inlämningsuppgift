@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Undersökning för anställda</title>
+</head>
+<body>
+
+<h1>Undersökningsformulär</h1><br><br>
+
+<label><b>Skriv in ditt namn:</b></label>
+<input size="35" maxlength="20/"></input><br><br><br>
+
+
+<label>Beskriv kort om dig själv:</label><br>
+<textarea cols="30" rows="4" style="background-color:#7FFFD4;"></textarea><br><br>
+
+
+<p><i>Tränar du någon sport?</i></p>
+<!-- attributen name kopplar ihop radiobutton, möjliggör att välja separat.-->
+<input type="radio" name="alternativ" value="JA"> JA<br>
+<input type="radio" name="alternativ" value="NEJ"> NEJ<br><br>
+
+
+
+  <p><i><b>På vilket sätt föredrar du att läsa om intressanta saker?</b></i></p>
+  <input type="checkbox" namn="alternativ">
+  <label> Böcker</label><br>
+  <input type="checkbox" namn="alternativ">
+  <label> Tidningar samt </label><br>
+  <input type="checkbox" namn="alternativ"> 
+  <label> Online</label><br><br>
+
+<br>
+<p><i>Välj din favorit genre i film</i></p>
+  <label>Genre:</label>
+  <select>
+  	<option></option>
+    <option>Action</option>
+    <option>Romantik</option>
+    <option>Komedi</option>
+    <option>Drama </option>
+    <option>Skräck</option>
+  </select>
+  <br>
+  <br>
+<p>Klicka på knappen när du är färdig</p><input type="submit" value="Submit">
+
+
+
+
+<p></p>
+
+</body>
+</html>
