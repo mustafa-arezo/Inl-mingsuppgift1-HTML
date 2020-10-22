@@ -1,0 +1,53 @@
+header   {
+    background-color:lightblue;
+    color: gray;
+    /* font-size: xx-large;   --behövs den? */ 
+    text-align: center;
+}
+/* Ändra på antingen header eller h2 */
+h2 {
+    background-color: lightblue;
+    color: gray;
+    text-align: center;
+
+
+}
+
+h3{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+   
+}
+
+.summary{
+    font-style: italic;
+    font-weight: lighter;
+    font-size:  larger;
+    text-decoration: underline;
+    
+}
+
+
+.preamble p{
+    font-size: large;
+    font-style: normal;
+    text-align: left;
+    
+}
+
+.explanation p{
+    font-size: large;
+    font-style: normal;
+    text-align: left;
+}
+
+.participation p{
+    font-size: large;
+    font-style: normal;
+    text-align: left;
+
+    }
+
+    .benefits
+
